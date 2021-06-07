@@ -1,0 +1,10 @@
+[package]
+name = "mqtt-async"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+bytes = "1"
+nix = "0.21"
+
+mqtt3 = { path = "../mqttv2" }
